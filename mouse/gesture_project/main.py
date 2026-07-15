@@ -21,8 +21,6 @@ hands = mpHands.Hands(
 prev_x, prev_y = 0, 0
 last_action_time = 0
 COOLDOWN = 0.5
-
-
 def find_finger_tip(processed):
     if processed.multi_hand_landmarks:
         hand_landmarks = processed.multi_hand_landmarks[0]
